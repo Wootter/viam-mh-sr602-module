@@ -1,0 +1,13 @@
+{
+  "components": [
+    {
+      "name": "motion-sensor",
+      "model": "wootter:mh-sr602-sensor:linux",
+      "type": "sensor",
+      "namespace": "rdk",
+      "attributes": {
+        "pin": 17
+      }
+    }
+  ]
+}
