@@ -1,13 +1,13 @@
 {
   "$schema": "https://dl.viam.dev/module.schema.json",
-  "module_id": "wootter:mhsr602",
+  "module_id": "wootter:mh-sr602",
   "visibility": "public",
   "url": "https://github.com/Wootter/viam-mh-sr602-module.git",
   "description": "A Viam module for the MH-SR602 PIR motion sensor on Raspberry Pi",
   "models": [
     {
       "api": "rdk:component:sensor",
-      "model": "wootter:sensor:mhsr602"
+      "model": "wootter:sensor:mh-sr602"
     }
   ],
   "entrypoint": "run.sh",

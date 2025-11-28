@@ -23,7 +23,7 @@ class MH_SR602(Sensor, Reconfigurable):
     connected to a Raspberry Pi GPIO pin using RPi.GPIO library.
     """
     
-    MODEL: ClassVar[Model] = Model(ModelFamily("wootter", "sensor"), "mhsr602")
+    MODEL: ClassVar[Model] = Model(ModelFamily("wootter", "sensor"), "mh-sr602")
 
     def __init__(self, name: str):
         """
